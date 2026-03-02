@@ -1,10 +1,10 @@
-package com.streaming.config_service;
+package com.streaming.video;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigServiceApplicationTests {
+class VideoServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

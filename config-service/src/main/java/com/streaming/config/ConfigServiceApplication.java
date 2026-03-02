@@ -1,4 +1,4 @@
-package com.streaming.config_service;
+package com.streaming.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

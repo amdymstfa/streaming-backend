@@ -1,4 +1,4 @@
-package com.streaming.gateway_service;
+package com.streaming.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

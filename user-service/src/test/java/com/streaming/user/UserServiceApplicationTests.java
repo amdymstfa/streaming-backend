@@ -1,4 +1,4 @@
-package com.streaming.user_service;
+package com.streaming.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

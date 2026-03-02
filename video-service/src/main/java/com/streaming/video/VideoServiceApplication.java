@@ -1,4 +1,4 @@
-package com.streaming.video_service;
+package com.streaming.video;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
