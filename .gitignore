@@ -1,1 +1,4 @@
 .idea
+start-all.sh
+status-all.sh
+stop-all.sh
