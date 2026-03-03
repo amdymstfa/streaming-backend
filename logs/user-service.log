@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.streaming:user-service >---------------------
+[INFO] Building user-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.11:run (default-cli) > test-compile @ user-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ user-service ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ user-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ user-service ---
+[INFO] skip non existing resourceDirectory /var/www/html/A2/streaming-backend/user-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ user-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 5 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.5.11:run (default-cli) < test-compile @ user-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.11:run (default-cli) @ user-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.11)
+
+2026-03-03T14:42:21.391Z  INFO 152978 --- [user-service] [           main] c.streaming.user.UserServiceApplication  : Starting UserServiceApplication using Java 21.0.2 with PID 152978 (/var/www/html/A2/streaming-backend/user-service/target/classes started by moustapha in /var/www/html/A2/streaming-backend/user-service)
+2026-03-03T14:42:21.393Z  INFO 152978 --- [user-service] [           main] c.streaming.user.UserServiceApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-03-03T14:42:21.461Z  INFO 152978 --- [user-service] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-03T14:42:21.462Z  INFO 152978 --- [user-service] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=user-service, profiles=[default], label=null, version=2289b1410aa66eddc0a24662313ae807fd01e160, state=
+2026-03-03T14:42:23.283Z  INFO 152978 --- [user-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-03T14:42:23.571Z  INFO 152978 --- [user-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 269 ms. Found 3 JPA repository interfaces.
+2026-03-03T14:42:23.984Z  INFO 152978 --- [user-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b0faffa6-6d8a-3b34-9964-80f959284a2f
+2026-03-03T14:42:24.735Z  INFO 152978 --- [user-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-03T14:42:24.796Z  INFO 152978 --- [user-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-03T14:42:24.797Z  INFO 152978 --- [user-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-03T14:42:24.886Z  INFO 152978 --- [user-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-03T14:42:24.887Z  INFO 152978 --- [user-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3423 ms
+2026-03-03T14:42:25.527Z  INFO 152978 --- [user-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-03T14:42:25.605Z  INFO 152978 --- [user-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-03T14:42:25.661Z  INFO 152978 --- [user-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-03T14:42:26.093Z  INFO 152978 --- [user-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-03T14:42:26.147Z  INFO 152978 --- [user-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-03T14:42:26.638Z  INFO 152978 --- [user-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30ca66c5
+2026-03-03T14:42:26.642Z  INFO 152978 --- [user-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-03T14:42:26.692Z  WARN 152978 --- [user-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-03T14:42:26.723Z  INFO 152978 --- [user-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.11
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-03T14:42:28.316Z  INFO 152978 --- [user-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-03T14:42:28.485Z  INFO 152978 --- [user-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-03T14:42:29.257Z  WARN 152978 --- [user-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-03T14:42:30.970Z  INFO 152978 --- [user-service] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-03-03T14:42:31.076Z  WARN 152978 --- [user-service] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-03T14:42:31.132Z  INFO 152978 --- [user-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2026-03-03T14:42:31.300Z  INFO 152978 --- [user-service] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-03T14:42:31.356Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-03T14:42:31.363Z  INFO 152978 --- [user-service] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-03T14:42:31.378Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-03T14:42:31.378Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-03T14:42:31.379Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-03T14:42:31.379Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-03T14:42:31.379Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-03T14:42:31.379Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-03T14:42:31.379Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-03T14:42:31.872Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-03T14:42:31.875Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-03T14:42:31.877Z  INFO 152978 --- [user-service] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-03T14:42:31.883Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1772548951882 with initial instances count: 3
+2026-03-03T14:42:31.893Z  INFO 152978 --- [user-service] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
+2026-03-03T14:42:31.895Z  INFO 152978 --- [user-service] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1772548951895, current=UP, previous=STARTING]
+2026-03-03T14:42:31.900Z  INFO 152978 --- [user-service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/amdy-moustapha:user-service:8082: registering service...
+2026-03-03T14:42:31.929Z  INFO 152978 --- [user-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-03T14:42:31.930Z  INFO 152978 --- [user-service] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2026-03-03T14:42:31.986Z  INFO 152978 --- [user-service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/amdy-moustapha:user-service:8082 - registration status: 204
+2026-03-03T14:42:32.021Z  INFO 152978 --- [user-service] [           main] c.streaming.user.UserServiceApplication  : Started UserServiceApplication in 13.075 seconds (process running for 13.973)
+2026-03-03T14:42:34.866Z  INFO 152978 --- [user-service] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-03T14:42:34.867Z  INFO 152978 --- [user-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-03T14:42:34.871Z  INFO 152978 --- [user-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
