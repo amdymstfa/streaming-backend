@@ -38,5 +38,6 @@ public class Video {
 
   private String rating;
   private String director;
-  private String cast;
+  @Column(name = "video_cast")
+    private String cast;
 }
