@@ -1,0 +1,6 @@
+com/streaming/demo/client/VideoFeignClient.class
+com/streaming/demo/DemoServiceApplication.class
+com/streaming/demo/controller/CommunicationDemoController.class
+com/streaming/demo/config/RestTemplateConfig.class
+com/streaming/demo/dto/VideoResponse.class
+com/streaming/demo/config/WebClientConfig.class

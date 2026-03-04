@@ -1,0 +1,6 @@
+/var/www/html/A2/streaming-backend/demo-service/src/main/java/com/streaming/demo/DemoServiceApplication.java
+/var/www/html/A2/streaming-backend/demo-service/src/main/java/com/streaming/demo/client/VideoFeignClient.java
+/var/www/html/A2/streaming-backend/demo-service/src/main/java/com/streaming/demo/config/RestTemplateConfig.java
+/var/www/html/A2/streaming-backend/demo-service/src/main/java/com/streaming/demo/config/WebClientConfig.java
+/var/www/html/A2/streaming-backend/demo-service/src/main/java/com/streaming/demo/controller/CommunicationDemoController.java
+/var/www/html/A2/streaming-backend/demo-service/src/main/java/com/streaming/demo/dto/VideoResponse.java
